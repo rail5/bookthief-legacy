@@ -319,6 +319,8 @@ std::string bookthiefFrame::exec(string cmd, bool nonprogress) {
 		return result;
 	}
 
+	cmd = cmd + " -f"; // Allowing overwrites with wxFD_OVERWRITE_PROMPT
+
 	string checkcmd = cmd + " -c 2>&1";
 	std::array<char, 128> buffer;
 	std::string result;
@@ -401,7 +403,7 @@ wxString bookthiefFrame::gencommand() {
 		return "fail";
 	}
 
-	wxFileDialog saveFileDialog(this, ("Save PDF file"), "", "", "PDF files (*.pdf)|*.pdf", wxFD_SAVE);
+	wxFileDialog saveFileDialog(this, ("Save PDF file"), "", "", "PDF files (*.pdf)|*.pdf", wxFD_SAVE|wxFD_OVERWRITE_PROMPT);
 	if (saveFileDialog.ShowModal() == wxID_CANCEL) {
 		return "fail";
 	}

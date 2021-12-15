@@ -1,3 +1,10 @@
+bookthief-legacy (5.4) focal; urgency=low
+
+  * Old wxWidgets BookThief has been moved to bookthief-legacy
+  Overwrites are now permitted with wxFD_OVERWRITE_PROMPT
+
+ -- rail5 <andrew@rail5.org>  Wed, 15 Dec 2021 08:41:38 -0500
+
 bookthief (5.3.1) focal; urgency=low
 
   * Patched a number of bugs
