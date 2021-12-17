@@ -4,4 +4,4 @@
 
 override_dh_auto_install:
 	install -D -m 0755 bookthief-legacy $$(pwd)/debian/bookthief-legacy/usr/bin/bookthief-legacy
-	install -D -m 0755 BookThief-legacy.desktop $$(pwd)/debian/bookthief-legacy/usr/share/applications/BookThief.desktop
+	install -D -m 0755 BookThief-legacy.desktop $$(pwd)/debian/bookthief-legacy/usr/share/applications/BookThief-legacy.desktop
