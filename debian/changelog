@@ -1,3 +1,11 @@
+bookthief-legacy (5.4.2) focal; urgency=low
+
+  * Now builds a binary called bookthief-legacy, so as to not
+  conflict with the main bookthief package
+  Updated runtime dependency list
+
+ -- rail5 <andrew@rail5.org>  Thu, 16 Dec 2021 21:32:22 -0500
+
 bookthief-legacy (5.4.1) focal; urgency=low
 
   * Patched bug in debian/rules

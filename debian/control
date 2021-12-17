@@ -10,8 +10,7 @@ License: GPL-3.0
 Vendor: rail5 <andrew@rail5.org>
 Priority: optional
 Architecture: any
-Depends: liesel (>= 5.0), libbsd0, libc6, libexpat1, libfontconfig1, libfreetype6, libgcc-s1, libjbig0, libjpeg-turbo8 | libjpeg62-turbo, liblzma5, libpng16-16, libstdc++6, libtiff5, libuuid1, libwebp6, libwebpmux3, libx11-6, libxau6, libxcb1, libxdmcp6, libxext6, zlib1g, libzstd1, libatk1.0-0, libatk-bridge2.0-0, libatspi2.0-0, libcairo2-dev, libepoxy0, libice6, libnotify4, libpcre32-3, libpcre3-dev, libselinux1-dev, libsm6, libwxbase3.0-0v5, libxcb-render0-dev, libxcb-shm0-dev
-Conflicts: bookthief
+Depends: liesel (>= 5.0), libbsd0, libc6, libexpat1, libfontconfig1, libfreetype6, libjbig0, libjpeg-turbo8 | libjpeg62-turbo, liblzma5, libpng16-16, libstdc++6, libtiff5, libuuid1, libwebp6, libwebpmux3, libx11-6, libxau6, libxcb1, libxdmcp6, libxext6, zlib1g, libzstd1, libatk1.0-0, libatk-bridge2.0-0, libatspi2.0-0, libcairo2-dev, libepoxy0, libice6, libnotify4, libpcre32-3, libpcre3-dev, libselinux1-dev, libsm6, libwxbase3.0-0v5, libxcb-render0-dev, libxcb-shm0-dev
 Description: GUI Front-end for Liesel
  Prepares PDFs to be home-printed
  in "pamphlet" style
